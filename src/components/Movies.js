@@ -1,12 +1,31 @@
-import React from 'react';
-import { movies } from '../data';
+import React from "react";
+import { movies } from "../data";
 
-const Movies = () => {
-  return (
-    <div>
-        {/*{code here}*/}
-    </div>
-  );
-};
+class Movies extends React.Component {
+  displayMovies = () => {
+    return movies.map(movie => {
+      return (
+        <div key={movie.title}>
+          <h3>{movie.title}</h3>
+          <p>{movie.time}m</p>
+          <ul>
+            {movie.genres.map(g => (
+              <li>{g}</li>
+            ))}
+          </ul>
+        </div>
+      );
+    });
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>Movies Page</h1>
+        {this.displayMovies()}
+      </div>
+    );
+  }
+}
 
 export default Movies;
