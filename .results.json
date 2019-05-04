@@ -1,0 +1,354 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 24,
+    "passes": 24,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-04T21:42:50.753Z",
+    "end": "2019-05-04T21:42:50.972Z",
+    "duration": 219
+  },
+  "tests": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 45,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <NavBar /> component",
+      "fullTitle": "App contains a <NavBar /> component",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/\">",
+      "fullTitle": "App contains a <Route path=\"/\">",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/actors\">",
+      "fullTitle": "App contains a <Route path=\"/actors\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/directors\">",
+      "fullTitle": "App contains a <Route path=\"/directors\">",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/movies\">",
+      "fullTitle": "App contains a <Route path=\"/movies\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 45,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <NavBar /> component",
+      "fullTitle": "App contains a <NavBar /> component",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/\">",
+      "fullTitle": "App contains a <Route path=\"/\">",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/actors\">",
+      "fullTitle": "App contains a <Route path=\"/actors\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/directors\">",
+      "fullTitle": "App contains a <Route path=\"/directors\">",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <Route path=\"/movies\">",
+      "fullTitle": "App contains a <Route path=\"/movies\">",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Movies should render one <h1 /> first, inside of the <div />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Movies Page' inside of the <h1 />",
+      "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each movie",
+      "fullTitle": "Movies should render a <div /> for each movie",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each movie",
+      "fullTitle": "Movies should render the right content for each movie",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
